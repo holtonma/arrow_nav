@@ -1,0 +1,45 @@
+/*
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, 
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent}
+*/
+
+.last, div.last {margin-right: 0}
+#breadcrumb a {color: #ff4000; font-size: 12px}
+#breadcrumb {font-size: 13px; margin: 0 0 10px 0}
+
+#sub-nav-container {background-color: #707070; position: relative; width: 974px; z-index: 200000}
+#sub-nav-container:after {clear: both; content: ""; display: block; height: 0; overflow: hidden; visibility: hidden}
+#sub-nav2 {margin: 0; padding: 0; position: relative; z-index: 200000}
+#sub-nav2:after {clear: both; content: ""; display: block; height: 0; overflow: hidden; visibility: hidden}
+#sub-nav2 #rightlink {float: right; padding: 3px 10px}
+#sub-nav2 li {float: left; font-size: 11px; list-style-type: none; margin: 0; padding: 3px 5px; position: relative}
+#sub-nav2 li:after {clear: both; content: ""; display: block; height: 0; overflow: hidden; visibility: hidden}
+#sub-nav2 li.active a {background-color: #266CDE; 
+  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin: 4px 7px; padding: 1px 3px} /*#0004ff*/
+#sub-nav2 li.breadcrumb {background: url(/images/sprite.png) right 0 no-repeat; padding: 0 30px 0 0; line-height: 22px}
+#sub-nav2 li.last {background: url(/images/sprite.png) right -96px}
+#sub-nav2 li.open {background-position: 100% -64px}
+#sub-nav2 li.depressed {background-position: 100% -32px}
+#sub-nav2 li.teams span {margin-top: 6px}
+#sub-nav2 li a {color: #fff; float: left; padding: 5px 5px 5px 10px; text-decoration: none}
+#sub-nav2 li a:active, #sub-nav2 li a:focus, #sub-nav2 li a:hover {text-decoration: underline}
+#sub-nav2 li span {background: url("/images/dropdown_arrow.png") 0 0 no-repeat; cursor: pointer; float: left; height: 11px; margin: 8px 0 0 0; width: 15px}
+* html #sub-nav2 li.last {background-position: right -95px}
+#sub-nav-container #teams-sub-nav-dropdown, #sub-nav-container #teams-sub-nav-dropdown div {background-color: #707070}
+#sub-nav-container #teams-sub-nav-dropdown a, #sub-nav-container #teams-sub-nav-dropdown h3 {color: #fff}
+#sub-nav-container div {background-color: #4b4b4b; color: #fff; -moz-border-radius: 0 0 3px 3px; -webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-right-radius: 3px}
+#sub-nav-container div div.links-column a {color: #fff}
+#sub-nav-container div.nav-column a, #sub-nav-container div.nav-column h3 {color: #999}
+#sub-nav-container div.nav-column li.highlight a {color: #fff; text-decoration: underline}
+div.sub-nav-dropdown {background: #4b4b4b; border-radius: 0 0 3px 3px; -moz-border-radius: 0 3px 3px; -webkit-border-bottom-left-radius: 3px; -webkit-border-bottom-right-radius: 3px; display: none; float: left; left: 0; max-width: 960px; padding: 10px 5px; position: absolute; z-index: 100000}
+div.sub-nav-dropdown div.nav-column {width: 110px}
+div.sub-nav-dropdown div.nav-column li {background: url(/images/nav/subnav/bullet.png) -4px 0 no-repeat}
+div.sub-nav-dropdown div.with-left-column {border-left: 1px solid #ccc}
+div.sub-nav-dropdown div.with-right-column {border-right: 1px solid #ccc}
+
+div.sub-nav-dropdown div.nav-column {margin-bottom: 10px}
+
+body {background: #dcdcd7; font: 12px/16px "Helvetica Neue", Helvetica, Arial, sans-serif}
+
